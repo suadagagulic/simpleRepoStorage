@@ -1,0 +1,66 @@
+/*limited reset*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align:baseline;
+	font: inherit;
+}
+
+html { background:#8C8C8C; }
+
+body {
+	font: 14px Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	font-weight:normal;
+	font-style:normal;
+	width: 960px;
+	position: relative;
+	margin: 0 auto;
+}
+
+#container {
+    width: 580px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+ul {
+    margin: 15px auto;
+    padding: 0;
+    width: 545px;
+}
+ul li {
+    list-style-type: none;
+    font-size: 16px;
+    color:#4F4F4F;
+    background-color: #FFE9AF;
+    margin-bottom: 5px;
+    padding: 8px;
+    text-align: left;
+}
+
+#content {
+	background: #FFFFFF;
+	margin:45px auto 0 auto;
+	padding: 16px;
+}
+
+#main { background:#FFFFFF; }
+
+h2 {
+	font:20px Arial, Helvetica, sans-serif;
+	color: #00A5C4;
+	margin-bottom: .5em;
+	clear: both;
+}
+
+button { 
+	cursor: pointer; 
+	font-size: 1em; 
+	margin: 0 8px; 
+	border-radius: 20px; 
+	border: none; 
+	padding: 8px 14px 
+}
+
